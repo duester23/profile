@@ -1,0 +1,138 @@
+/* Colors and Fonts */
+
+body{
+  background: #EBEBEB;
+  font-family: 'Abel', sans-serif;
+  font-weight: 300;
+  color:  #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+  color: #3C3744;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #3C3744;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container{
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.img-movies{
+  width: 200px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline li i{
+  font-size: 25px;
+}
+
+.list-inline-heart {
+  padding-left: 0;
+}
+
+.list-inline-heart li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline-heart li i{
+  font-size: 50px;
+}
+
+.fa-heart:hover{
+  color: #F40000;
+}
+
+.img-profile{
+  width: 170px;
+  height: 170px;
+  border: 3px solid #cccccc;
+}
+
+.movies-position{
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .img-movies {
+    width: 100px;
+  }
+
+  .img-profile{
+    width: 120px;
+    height: 120px;
+  }
+
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
